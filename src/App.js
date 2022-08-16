@@ -1,8 +1,9 @@
 import React from 'react';
+import "./App.css"
 import Intro from './components/Intro'
 import About from './components/About'
 import Experience from './components/Experience'
-import Credits from './components/Credits'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Intro />
       <About />
       <Experience />
-      <Credits />
+      <Footer />
     </div>
   );
 }

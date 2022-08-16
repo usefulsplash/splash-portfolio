@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About() {
+function About() {
   return (
     <div>
         <h2>about</h2>
@@ -17,6 +17,11 @@ export default function About() {
             <li>Jira/Confluence</li>
             <li>Linux (Ubuntu)</li>
         </ul>
+        <p>
+          When I'm not working or studying, you'll most likely catch me playing video games, tinkering with mechanical keyboards, or reading my favorite books and manga.
+        </p>
     </div>
   )
 }
+
+export default About
