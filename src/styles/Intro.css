@@ -7,3 +7,46 @@
     padding-left: 15%;
     padding-right: 15%;
 }
+
+.pfp {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro-title {
+    color: #BFC89E;
+    text-align: left;
+    font-size: 48px;
+    padding-bottom: 5%;
+}
+
+.intro-subtitle {
+    color:#FFFFFF;
+    text-align: justify;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 675px) {
+    #intro {
+        min-height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        margin: 0;
+    }
+
+    .intro-title {
+        padding-top: 18%;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .intro-subtitle {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 18%;
+    }
+
+    .pfp {
+        display: none;
+    }
+}
