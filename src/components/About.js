@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <h2>about</h2>
+        <h2>About</h2>
         <p>
             I graduated from St. John's University with a degree in Computer Science, with experience in languages and technologies such as:
         </p>
