@@ -1,10 +1,11 @@
 import React from 'react'
+import "../styles/Footer.css"
 
 function Footer() {
   return (
-    <div>
-        <p>Built and designed by Enrique Javier.</p>
-        <p>All rights reserved. &copy;</p>
+    <div id='footer'>
+        <div className='credits'>Built and designed by Enrique Javier.</div>
+        <div className='credits'>All rights reserved. &copy;</div>
     </div>
   )
 }
